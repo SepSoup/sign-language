@@ -40,12 +40,3 @@ The implementation is modular and consists of the following stages:
 - **NumPy / Pandas** – for data manipulation.
 
 ---
-##  Folder Structure
-
-project/
-│
-├── images/ # Collected sign language images (37 classes)
-├── landmarks/ # Processed images with drawn landmarks
-├── dataset.csv # Extracted features and labels
-├── model.pkl # Trained Random Forest model
-└── main.py # Real-time gesture recognition script
